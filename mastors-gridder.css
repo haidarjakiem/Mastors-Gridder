@@ -1,0 +1,685 @@
+/* ===============================
+   MASTORS GRIDDER v1.0.0
+   CSS Grid Utility Classes
+   =============================== */
+
+/* -------------------------------
+   AUTO-FIT RESPONSIVE GRIDS
+   ------------------------------- */
+
+.grid-auto {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.grid-auto-sm {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.grid-auto-md {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.grid-auto-lg {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1rem;
+}
+
+/* -------------------------------
+   AUTO-FILL RESPONSIVE GRIDS
+   ------------------------------- */
+
+.grid-fill {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.grid-fill-sm {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.grid-fill-lg {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1rem;
+}
+
+/* -------------------------------
+   FIXED COLUMN GRIDS
+   ------------------------------- */
+
+.grid-cols-1 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+.grid-cols-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.grid-cols-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.grid-cols-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.grid-cols-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.grid-cols-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+}
+
+.grid-cols-8 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1rem;
+}
+
+.grid-cols-12 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+}
+
+/* -------------------------------
+   FIXED ROW GRIDS
+   ------------------------------- */
+
+.grid-rows-2 {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.grid-rows-3 {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.grid-rows-4 {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.grid-rows-5 {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+/* -------------------------------
+   GRID GAPS
+   ------------------------------- */
+
+.gap-0 {
+  gap: 0;
+}
+
+.gap-xs {
+  gap: 0.5rem;
+}
+
+.gap-sm {
+  gap: 1rem;
+}
+
+.gap-md {
+  gap: 1.5rem;
+}
+
+.gap-lg {
+  gap: 2rem;
+}
+
+.gap-xl {
+  gap: 3rem;
+}
+
+/* Row and column specific gaps */
+.gap-x-sm {
+  column-gap: 1rem;
+}
+
+.gap-y-sm {
+  row-gap: 1rem;
+}
+
+.gap-x-md {
+  column-gap: 1.5rem;
+}
+
+.gap-y-md {
+  row-gap: 1.5rem;
+}
+
+.gap-x-lg {
+  column-gap: 2rem;
+}
+
+.gap-y-lg {
+  row-gap: 2rem;
+}
+
+/* -------------------------------
+   GRID ITEM SPANS
+   ------------------------------- */
+
+.col-span-1 {
+  grid-column: span 1;
+}
+
+.col-span-2 {
+  grid-column: span 2;
+}
+
+.col-span-3 {
+  grid-column: span 3;
+}
+
+.col-span-4 {
+  grid-column: span 4;
+}
+
+.col-span-5 {
+  grid-column: span 5;
+}
+
+.col-span-6 {
+  grid-column: span 6;
+}
+
+.col-span-full {
+  grid-column: 1 / -1;
+}
+
+.row-span-1 {
+  grid-row: span 1;
+}
+
+.row-span-2 {
+  grid-row: span 2;
+}
+
+.row-span-3 {
+  grid-row: span 3;
+}
+
+.row-span-4 {
+  grid-row: span 4;
+}
+
+.row-span-full {
+  grid-row: 1 / -1;
+}
+
+/* -------------------------------
+   GRID ALIGNMENT
+   ------------------------------- */
+
+.grid-center {
+  display: grid;
+  place-items: center;
+}
+
+.items-start {
+  align-items: start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-end {
+  align-items: end;
+}
+
+.items-stretch {
+  align-items: stretch;
+}
+
+.justify-items-start {
+  justify-items: start;
+}
+
+.justify-items-center {
+  justify-items: center;
+}
+
+.justify-items-end {
+  justify-items: end;
+}
+
+.justify-items-stretch {
+  justify-items: stretch;
+}
+
+/* Self alignment */
+.self-start {
+  align-self: start;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.self-end {
+  align-self: end;
+}
+
+.self-stretch {
+  align-self: stretch;
+}
+
+.justify-self-start {
+  justify-self: start;
+}
+
+.justify-self-center {
+  justify-self: center;
+}
+
+.justify-self-end {
+  justify-self: end;
+}
+
+/* -------------------------------
+   LAYOUT PATTERNS
+   ------------------------------- */
+
+/* Sidebar Layout (Left) */
+.grid-sidebar {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+}
+
+.grid-sidebar-sm {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 1rem;
+}
+
+.grid-sidebar-lg {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 1rem;
+}
+
+/* Sidebar Right */
+.grid-sidebar-right {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 1rem;
+}
+
+/* Holy Grail Layout */
+.grid-holy-grail {
+  display: grid;
+  grid-template-columns: 250px 1fr 250px;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header header header"
+    "sidebar-left content sidebar-right"
+    "footer footer footer";
+  gap: 1rem;
+  min-height: 100vh;
+}
+
+/* Named areas for Holy Grail */
+.grid-area-header {
+  grid-area: header;
+}
+
+.grid-area-sidebar-left {
+  grid-area: sidebar-left;
+}
+
+.grid-area-content {
+  grid-area: content;
+}
+
+.grid-area-sidebar-right {
+  grid-area: sidebar-right;
+}
+
+.grid-area-footer {
+  grid-area: footer;
+}
+
+/* Full Bleed Layout */
+.grid-full-bleed {
+  display: grid;
+  grid-template-columns: 1fr min(1200px, 100%) 1fr;
+  gap: 1rem;
+}
+
+.grid-full-bleed > * {
+  grid-column: 2;
+}
+
+.grid-full-bleed .full-width {
+  grid-column: 1 / -1;
+}
+
+/* Card Grid */
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+  gap: 1.5rem;
+}
+
+.grid-cards-sm {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+  gap: 1rem;
+}
+
+.grid-cards-lg {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
+  gap: 2rem;
+}
+
+/* Asymmetric 2-Column */
+.grid-asymmetric {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+}
+
+.grid-asymmetric-reverse {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+
+/* Masonry-style Grid */
+.grid-masonry {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 10px;
+  gap: 1rem;
+}
+
+.grid-masonry-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 10px;
+  gap: 1rem;
+}
+
+/* Dense Grid Packing */
+.grid-dense {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-auto-flow: dense;
+  gap: 1rem;
+}
+
+/* Equal Height Rows */
+.grid-equal-rows {
+  display: grid;
+  grid-auto-rows: 1fr;
+  gap: 1rem;
+}
+
+/* -------------------------------
+   RESPONSIVE UTILITIES
+   ------------------------------- */
+
+/* Mobile First: Stack to Grid */
+.grid-stacked {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .grid-stacked {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.grid-stacked-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .grid-stacked-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Responsive Sidebar */
+.grid-sidebar-responsive {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .grid-sidebar-responsive {
+    grid-template-columns: 300px 1fr;
+  }
+}
+
+/* Responsive Columns */
+@media (min-width: 640px) {
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sm\:grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .md\:grid-cols-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .lg\:grid-cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .lg\:grid-cols-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* Responsive Spans */
+@media (min-width: 640px) {
+  .sm\:col-span-2 {
+    grid-column: span 2;
+  }
+
+  .sm\:col-span-3 {
+    grid-column: span 3;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:col-span-2 {
+    grid-column: span 2;
+  }
+
+  .md\:col-span-3 {
+    grid-column: span 3;
+  }
+
+  .md\:col-span-4 {
+    grid-column: span 4;
+  }
+}
+
+/* -------------------------------
+   GRID ORDER
+   ------------------------------- */
+
+.order-first {
+  order: -1;
+}
+
+.order-last {
+  order: 999;
+}
+
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
+}
+
+/* -------------------------------
+   SUBGRID SUPPORT
+   ------------------------------- */
+
+.subgrid-cols {
+  display: grid;
+  grid-template-columns: subgrid;
+}
+
+.subgrid-rows {
+  display: grid;
+  grid-template-rows: subgrid;
+}
+
+.subgrid-both {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+
+/* ===============================
+   USAGE EXAMPLES
+   =============================== */
+
+/*
+BASIC USAGE:
+
+<!-- Auto-fit responsive gallery -->
+<div class="grid-auto gap-lg">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+</div>
+
+<!-- Fixed 4-column grid -->
+<div class="grid-cols-4 gap-md">
+  <div>Column 1</div>
+  <div>Column 2</div>
+  <div>Column 3</div>
+  <div>Column 4</div>
+</div>
+
+<!-- Centered content -->
+<div class="grid-center" style="min-height: 400px;">
+  <h1>Centered Content</h1>
+</div>
+
+<!-- Sidebar layout -->
+<div class="grid-sidebar gap-lg">
+  <aside>Sidebar</aside>
+  <main>Main Content</main>
+</div>
+
+<!-- Span multiple columns -->
+<div class="grid-cols-4">
+  <div class="col-span-2">Spans 2 columns</div>
+  <div>Normal</div>
+  <div>Normal</div>
+</div>
+
+<!-- Responsive: 1 col mobile, 2 cols tablet, 4 cols desktop -->
+<div class="grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-md">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+  <div>Item 4</div>
+</div>
+
+<!-- Card grid -->
+<div class="grid-cards">
+  <div class="card">Card 1</div>
+  <div class="card">Card 2</div>
+  <div class="card">Card 3</div>
+</div>
+
+<!-- Holy Grail Layout -->
+<div class="grid-holy-grail">
+  <header class="grid-area-header">Header</header>
+  <aside class="grid-area-sidebar-left">Left Sidebar</aside>
+  <main class="grid-area-content">Main Content</main>
+  <aside class="grid-area-sidebar-right">Right Sidebar</aside>
+  <footer class="grid-area-footer">Footer</footer>
+</div>
+
+<!-- Full bleed sections -->
+<div class="grid-full-bleed">
+  <h1>Normal Content</h1>
+  <p>Constrained to content width</p>
+  <img class="full-width" src="hero.jpg" alt="Full width image">
+  <p>Back to normal width</p>
+</div>
+*/
