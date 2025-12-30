@@ -11,6 +11,7 @@ A powerful, flexible, and production-ready SCSS grid utility library that provid
 - [Installation](#-installation)
 - [Quick Start](#-quick-start)
 - [Grid Mixins Overview](#-grid-mixins-overview)
+- [Quick Reference Table](#-quick-reference-table)
 - [Detailed Documentation](#-detailed-documentation)
   - [Responsive Grid Mixins](#responsive-grid-mixins)
   - [Fixed Grid Mixins](#fixed-grid-mixins)
