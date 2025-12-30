@@ -7,7 +7,7 @@ A powerful, flexible, and production-ready CSS utility library that provides eve
 ---
 
 <p align="center">
-  <a href="./README-SASS.md">
+  <a href="/">
     <img src="https://img.shields.io/badge/SASS-DOCUMENTATION-cc6699?style=for-the-badge&logo=sass&logoColor=white">
   </a>
   &nbsp;
